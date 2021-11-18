@@ -1,0 +1,11 @@
+framework module GKCore {
+  umbrella header "GKCore.h"
+
+  export *
+  module * { export * }
+}
+
+module GKCore.Swift {
+    header "GKCore-Swift.h"
+    requires objc
+}
